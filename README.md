@@ -40,34 +40,130 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-
+<br />
 <p>
 
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud       exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
+<h4>Reload IIS (Open IIS, Stop and Start the server)</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
 
+<h2>Go to sites -> Default -> osTicket</h2>
+On the right, click “Browse *:80”
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
 
+
+<h2>Enable extensions</h2>
+<h4>Go back to IIS, sites -> Default -> osTicket</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
+<h4>Double-click PHP Manager</h4>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h4>Click “Enable or disable an extension”</h4>
+<p>- Enable: php_imap.dll</p>
+<p>- Enable: php_intl.dll</p>
+<p>- Enable: php_opcache.dll</p>
+<p>- Refresh the osTicket site in your browse, observe the changes</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<h2>Rename: ost-config.php</h2>
+<h4>- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h4>- From: To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<h2>Assign Permissions</h2>
+<h4>- Disable inheritance -> Remove All</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h4>- New Permissions -> Everyone -> All</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<h2>Continue Setting up osTicket in the browser (click Continue)</h2>
+<h4>- Name Helpdesk</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h4>- Default email (receives email from customers)</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<h2>From the Installation Files, download and install HeidiSQL</h2>
+<h4>- Open Heidi SQL</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h4>- Create a new session, root/Password1</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<h4>- Connect to the session</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<h4>- Create a database called “osTicket”</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<h2>Continue Setting up osticket in the browser</h2>
+<h4>- MySQL Database: osTicket</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h4>- MySQL Username: root</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h4>- MySQL Password: Password1</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h4>- Click “Install Now!”</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<h2>Congratulations, hopefully it is installed with no errors!</h2>
+<h4>- Browse to your help desk login page: http://localhost/osTicket/scp/login.php</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+
+
+
+
