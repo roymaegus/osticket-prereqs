@@ -5,6 +5,36 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+<img src="images/pic1 - openRunControl.PNG" alt="" width="50%" height="50%">
+<img src="images/pic2 - turnOnTurnOff.PNG" alt="turnOnTurnOff" width="50%" height="50%">
+<img src="images/pic3 - Test IIS.PNG" alt="Test IIS" width="50%" height="50%">
+<img src="images/pic4 - openISS.PNG" alt="openISS" width="50%" height="50%">
+<img src="images/pic5 - registerNewPHPversion.PNG" alt="registerNewPHPversion" width="50%" height="50%">
+<img src="images/pic6- PHPcgi.PNG" alt="PHPcgi" width="50%" height="50%">
+<img src="images/pic7 - restartServer.PNG" alt="restartServer" width="50%" height="50%">
+<img src="images/pic8 - dndUploadFolder.PNG" alt="dndUploadFolder" width="50%" height="50%">
+<img src="images/pic9 - browse80.PNG" alt="browse80" width="50%" height="50%">
+<img src="images/pic10 - osTicketInstaller.PNG" alt="osTicketInstaller" width="50%" height="50%">
+<img src="images/pic11 - enableOrDisable.PNG" alt="enableOrDisable" width="50%" height="50%">
+<img src="images/pic12 - enableFeatures.PNG" alt="enableFeatures" width="50%" height="50%">
+<img src="images/pic13 - refreshedOsTicketInstaller.PNG" alt="refreshedOsTicketInstaller" width="50%" height="50%">
+<img src="images/pic14 - osTicketConfig.PNG" alt="osTicketConfig" width="50%" height="50%">
+<img src="images/pic15 - disableInheritence.PNG" alt="disableInheritence" width="50%" height="50%">
+<img src="images/pic16 - everyonePermit.PNG" alt="everyonePermit" width="50%" height="50%">
+<img src="images/pic17 - applyPermit.PNG" alt="applyPermit" width="50%" height="50%">
+<img src="images/pic18 - fillOutInfo.PNG" alt="fillOutInfo" width="50%" height="50%">
+<img src="images/pic19 - hiediNew.PNG" alt="hiediNew" width="50%" height="50%">
+<img src="images/pic20 - connectionEstablished.PNG" alt="connectionEstablished" width="50%" height="50%">
+<img src="images/pic21 - databaseDetails.PNG" alt="databaseDetails" width="50%" height="50%">
+<img src="images/pic22 - newDatabase.PNG" alt="newDatabase" width="50%" height="50%">
+<img src="images/pic23 - databaseCreated.PNG" alt="databaseCreated" width="50%" height="50%">
+<img src="images/pic24 - congrats.PNG" alt="congrats" width="50%" height="50%">
+<img src="images/pic25 - deleteSetupFolder.PNG" alt="deleteSetupFolder" width="50%" height="50%">
+<img src="images/pic26 - readOnly.PNG" alt="readOnly" width="50%" height="50%">
+<img src="images/pic27 - loginToOsticket.PNG" alt="loginToOsticket" width="50%" height="50%">
+<img src="images/pic28 - loginSuccessful.PNG" alt="loginSuccessful" width="50%" height="50%">
+
+
 
 <h2>Video Demonstration</h2>
 
