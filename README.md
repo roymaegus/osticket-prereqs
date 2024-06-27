@@ -1,6 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-<img src="images/osTicketBanner.PNG" alt="dndUploadFolder" width="50%" height="50%">
+<img src="images/osTicketBanner.png" alt="osTicketBanner" >
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
