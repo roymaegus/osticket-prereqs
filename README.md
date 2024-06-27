@@ -27,20 +27,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Installation Steps</h2>
-<h4>Download osTicket from the Installation Files Folder</h4>
+<h5>Download osTicket from the Installation Files Folder</h5>
 
-<h4>Extract and copy “upload” folder to c:\inetpub\wwwroot</h4>
+<h5>Extract and copy “upload” folder to c:\inetpub\wwwroot</h5>
 <p>
 <img src="images/pic8 - dndUploadFolder.PNG" alt="dndUploadFolder" width="50%" height="50%">
 </p>
-<h4>Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” ---> 8</h4>
+<h5>Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” ---> 8</h5>
 <p>
 
 </p>
 <br />
 <p>
 
-<h4>Reload IIS (Open IIS, Stop and Start the server) --->?</h4>
+<h5>Reload IIS (Open IIS, Stop and Start the server) --->?</h5>
 <br />
 
 <h2>Go to sites -> Default -> osTicket --->9</h2>
@@ -52,13 +52,13 @@ On the right, click “Browse *:80”
 
 
 <h2>Enable extensions</h2>
-<h4>Go back to IIS, sites -> Default -> osTicket --->4</h4>
-<h4>Double-click PHP Manager ---></h4>
+<h5>Go back to IIS, sites -> Default -> osTicket --->4</h5>
+<h5>Double-click PHP Manager ---></h5>
 <p>
 <img src="images/pic4 - openISS.PNG" alt="openISS" width="50%" height="50%">
 </p>
 
-<h4>Click “Enable or disable an extension”--->11,12</h4>
+<h5>Click “Enable or disable an extension”--->11,12</h5>
 <p><img src="images/pic11 - enableOrDisable.PNG" alt="enableOrDisable" width="50%" height="50%"></p>
 <p>- Enable: php_imap.dll</p>
 <p>- Enable: php_intl.dll</p>
@@ -69,13 +69,13 @@ On the right, click “Browse *:80”
 </p>
 <br />
 
-<h4>Refresh osTicket in the browser to confirm changes to extensions</h4>
+<h5>Refresh osTicket in the browser to confirm changes to extensions</h5>
 <img src="images/pic10 - osTicketInstaller.PNG" alt="osTicketInstaller" width="50%" height="50%">
 <p><img src="images/pic13 - refreshedOsTicketInstaller.PNG" alt="refreshedOsTicketInstaller" width="50%" height="50%"></p>
 
 <h2>Rename: ost-sample-config.php--->14</h2>
-<h4>- From: C:\inetpub\wwwroot\osTicket\include\ost-sample-config.php---></h4>
-<h4>- From: To: C:\inetpub\wwwroot\osTicket\include\ost-config.php---></h4>
+<h5>- From: C:\inetpub\wwwroot\osTicket\include\ost-sample-config.php---></h5>
+<h5>- From: To: C:\inetpub\wwwroot\osTicket\include\ost-config.php---></h5>
 <h4>Open Properties for ost-config</h4>
 <p>
 <img src="images/pic14 - osTicketConfig.PNG" alt="osTicketConfig" width="50%" height="50%">
@@ -84,8 +84,8 @@ On the right, click “Browse *:80”
 
 
 <h2>Assign Permissions</h2>
-<h4>- Disable inheritance -> Remove All---></h4>
-<h4>- New Permissions -> Everyone -> All---></h4>
+<h5>- Disable inheritance -> Remove All---></h5>
+<h5>- New Permissions -> Everyone -> All---></h5>
 <p>
 <img src="images/pic15 - disableInheritence.PNG" alt="disableInheritence" width="50%" height="50%">
 <img src="images/pic16 - everyonePermit.PNG" alt="everyonePermit" width="50%" height="50%">
@@ -101,14 +101,14 @@ On the right, click “Browse *:80”
 
 
 <h2>From the Installation Files, download and install HeidiSQL---></h2>
-<h4>- Open Heidi SQL</h4>
-<h4>- Create a new session, root/Password1---></h4>
+<h5>- Open Heidi SQL</h5>
+<h5>- Create a new session, root/Password1---></h5>
 <p><img src="images/pic19 - hiediNew.PNG" alt="hiediNew" width="50%" height="50%"></p>
 <br />
-<h4>- Click OK to connect to the session--->20</h4>
+<h5>- Click OK to connect to the session--->20</h5>
 <p><img src="images/pic20 - connectionEstablished.PNG" alt="connectionEstablished" width="50%" height="50%"></p>
 <br />
-<h4>- Right click and create a new database called “osTicket”--->22, 23</h4>
+<h5>- Right click and create a new database called “osTicket”--->22, 23</h5>
 <p>
 <img src="images/pic22 - newDatabase.PNG" alt="newDatabase" width="50%" height="50%">
 <img src="images/pic23 - databaseCreated.PNG" alt="databaseCreated" width="50%" height="50%">
@@ -117,10 +117,10 @@ On the right, click “Browse *:80”
 
 
 <h2>Continue Setting up osticket in the browser---21></h2>
-<h4>- MySQL Database: osTicket</h4>
-<h4>- MySQL Username: root---></h4>
-<h4>- MySQL Password: Password1---></h4>
-<h4>- Click “Install Now!”---></h4>
+<h5>- MySQL Database: osTicket</h5>
+<h5>- MySQL Username: root---></h5>
+<h5>- MySQL Password: Password1---></h5>
+<h5>- Click “Install Now!”---></h5>
 <p>
 <img src="images/pic21 - databaseDetails.PNG" alt="databaseDetails" width="50%" height="50%">
 </p>
@@ -128,20 +128,20 @@ On the right, click “Browse *:80”
 
 
 <h2>Congratulations, hopefully it is installed with no errors!--->24</h2>
-<h4>- Browse to your help desk login page: http://localhost/osTicket/scp/login.php</h4>
+<h5>- Browse to your help desk login page: http://localhost/osTicket/scp/login.php</h5>
 <p>
 <img src="images/pic24 - congrats.PNG" alt="congrats" width="50%" height="50%">
 </p>
 <br />
 
 <h2>Clean up steps</h2>
-<h4>Delete setup folder from - c:\inetpub\wwwroot\osTicket </h4>
+<h5>Delete setup folder from - c:\inetpub\wwwroot\osTicket </h5>
 <img src="images/pic25 - deleteSetupFolder.PNG" alt="deleteSetupFolder" width="50%" height="50%">
 
-<h4>Restore permissions in ost-config to read only</h4>
+<h5>Restore permissions in ost-config to read only</h5>
 <img src="images/pic26 - readOnly.PNG" alt="readOnly" width="50%" height="50%">
 
-<h4>Login to osTicket</h4>
+<h5>Login to osTicket</h5>
 <img src="images/pic27 - loginToOsticket.PNG" alt="loginToOsticket" width="50%" height="50%">
 <img src="images/pic28 - loginSuccessful.PNG" alt="loginSuccessful" width="50%" height="50%">
 
