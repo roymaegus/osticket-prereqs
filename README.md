@@ -18,19 +18,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Virtual Machine of Windows 10
-- Microsoft Remote Desktop
-- IIS (Internet Information Service)
+<h3>Create an Azure Virtual Machine Windows 10, 4 vCPUs</h3>
+<h4>Name: Vm-osticket</h4>
+<h4>Username: labuser (for example/whatever you chose)</h4>
+<h4>Password: osTicketPassword1! (for example/whatever you chose)</h4>
+<h4>Initialize Virtual Machine</h4>
+
 
 
 <h2>Installation Steps</h2>
-<h4>Step 1 -  Download osTicket from the Installation Files Folder</h4>
+<h4>Download osTicket from the Installation Files Folder</h4>
 
-<h4>Step 2 - Extract and copy “upload” folder to c:\inetpub\wwwroot</h4>
+<h4>Extract and copy “upload” folder to c:\inetpub\wwwroot</h4>
 <p>
 <img src="images/pic8 - dndUploadFolder.PNG" alt="dndUploadFolder" width="50%" height="50%">
 </p>
-<h4>Step 3 - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” ---> 8</h4>
+<h4>Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” ---> 8</h4>
 <p>
 
 </p>
