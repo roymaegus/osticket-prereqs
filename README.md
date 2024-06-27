@@ -116,7 +116,7 @@ On the right, click “Browse *:80”
 <br />
 
 
-<h2>Continue Setting up osticket in the browser---21></h2>
+<h2>Continue Setting up osticket in the browser</h2>
 <h5>- MySQL Database: osTicket</h5>
 <h5>- MySQL Username: root</h5>
 <h5>- MySQL Password: Password1</h5>
