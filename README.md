@@ -1,34 +1,10 @@
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="images/osTicketBanner.PNG" alt="dndUploadFolder" width="50%" height="50%">
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
-<img src="images/pic1 - openRunControl.PNG" alt="" width="50%" height="50%">
-<img src="images/pic2 - turnOnTurnOff.PNG" alt="turnOnTurnOff" width="50%" height="50%">
-<img src="images/pic3 - Test IIS.PNG" alt="Test IIS" width="50%" height="50%">
-
-<img src="images/pic5 - registerNewPHPversion.PNG" alt="registerNewPHPversion" width="50%" height="50%">
-<img src="images/pic6- PHPcgi.PNG" alt="PHPcgi" width="50%" height="50%">
-<img src="images/pic7 - restartServer.PNG" alt="restartServer" width="50%" height="50%">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <h2>Environments and Technologies Used</h2>
